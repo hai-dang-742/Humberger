@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.html {
+    font-family: time Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #000 ;
+    margin: 20px 160px;
+
+}
+
+
+
+#main {
+
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    
+}
+
+#nav .nav-header {
+   float: right;
+   padding: 0 16px;
+}
+
+#nav {
+    padding: 8px 16px;
+}
+
+#nav  li {
+    display: inline-block;
+}
+
+#nav li a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    letter-spacing: 4px;
+    padding: 0 10px;
+    font-size: 15px;
+    line-height: 56px;
+    min-height: 20px;
+}
+
+#nav li:hover a {
+    background-color: #ccc;
+}
+
+#slider .text-heading {  
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#slider .text-desc {
+    position: absolute;
+    font-size: 36px;
+    opacity: 0.6;
+    letter-spacing: 5px;
+    left: 0;
+    bottom: 50px;
+    padding: 0 15px;
+   
+}
+
+#content {
+    width: 1100px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+#content .about-cater {
+    padding: 12px 24px;
+    float: left;
+    
+}
+
+#content .text-about {
+    display: block;
+    padding: 12px 24px;
+}
+
+#content .text { 
+    font-weight: 600px;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+#content .desc-about {
+    margin-top: 30px;
+    font-size: 18px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.seasonal {
+    background-color: #ccc;
+    color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#content .desc-text {
+    margin-top: 18px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+#content .desc-text2 {
+    margin-top: 18px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    opacity: 0.5;
+}
+
+#menu {
+    padding: 64px 0;
+    margin-bottom: 25px;
+}
+
+#menu .our-menu {
+    width: 100%;
+    height: auto;
+    padding: 12px 24px;
+    display: inline-block;
+    position: relative;
+    margin: auto 30rem;
+    line-height: 1.5;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
+
+.text-our {
+    font-size: 36px;
+    font-weight: lighter;
+    margin-left: 8rem;
+}
+
+.img-menu {
+    height: 400px;
+    opacity: 0.7;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    right: 30rem;
+    transform: translateX(-50%);
+}
+
+
+
+.text-menu {
+    margin-top: 25px;
+    color: #757575;
+
+}
+
+#contact-list {
+   padding: 64px 0;
+   margin: auto 30rem;
+}
+
+.contact-text {
+    font-size: 36px;
+    margin: 10px 0;
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
+
+.text-desc,
+ .text-phone{
+    font-size: 15px;
+    margin: 15px 0;
+    line-height: 1.5;
+}
+
+.text-info {
+    font-size: 18px;
+    color: #607d8b;
+    margin: 18px 0;
+}
+
+.info {
+    display: block;
+}
+
+.contact-input {
+    width: 100%;
+    padding: 16px 8px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.btn {
+    font-size: 15px;
+    padding: 8px 16px;
+    margin: 16px 0;
+}
+#footer {
+    height: 115px;
+    background-color: #f1f1f1;
+}
+
+.footer-session {
+    color: #000;
+    text-align: center;
+    line-height: 115px;
+}
+
+.hover {
+    color: #000;
+}
+
+.hover:hover {
+   color: rgb(10, 255, 226);
+}
