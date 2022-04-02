@@ -4,21 +4,40 @@
     box-sizing: border-box;
 }
 
-.html {
-    font-family: time Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+html {
+    font-family: Georgia, Times, 'Times New Roman', serif;
 }
+
 
 hr {
     border: 0;
-    border-top: 1px solid #000 ;
-    margin: 20px 160px;
+    border-top: 1px solid #eee ;
+    margin: 20px 0;
 
 }
 
+body{
+    margin: 0;
+    background-color: #fff;
+}
 
+.leter {
+    letter-spacing: 5px;
+}
+
+.line-height-1-5 {
+    line-height: 1.5;
+
+}
+
+.opacity {
+    opacity: 0.7;
+}
 
 #main {
-
+    width: 1200px;
+    margin: 10px auto 0;
+    background-color: #fff;
 }
 
 #header {
@@ -71,142 +90,122 @@ hr {
 #slider .text-desc {
     position: absolute;
     font-size: 36px;
-    opacity: 0.6;
-    letter-spacing: 5px;
     left: 0;
     bottom: 50px;
     padding: 0 15px;
    
 }
+/* Content About */
 
 #content {
-    width: 1100px;
-    height: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 64px;
-    padding-bottom: 64px;
+    display: flex;
+    padding: 64px 0;
 }
 
-#content .about-cater {
+.about-cater {
+    width: 43%;
+    padding-top: 53%;
+    margin: 12px 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-about {
+    width: 50%;
     padding: 12px 24px;
-    float: left;
-    
 }
 
-#content .text-about {
-    display: block;
-    padding: 12px 24px;
-}
-
-#content .text { 
-    font-weight: 600px;
+.text {
     font-size: 36px;
     text-align: center;
-    letter-spacing: 5px;
+    margin: 10px 0;
 }
 
-#content .desc-about {
-    margin-top: 30px;
+.desc-about {
     font-size: 18px;
-    letter-spacing: 5px;
     text-align: center;
+    margin: 10px 0;
+}
+
+.desc-text {
+    font-size: 18px;
+    padding: 18px 0;
 }
 
 .seasonal {
     background-color: #ccc;
     color: #000;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0 8px;
 }
 
-#content .desc-text {
-    margin-top: 18px;
+.desc-text2 {
     font-size: 18px;
-    line-height: 1.5;
-    text-align: justify;
+    padding: 18px 0;
 }
+/* Content Menu */
+ #menu  {
+    display: flex;
+    padding: 10px;
+} 
 
-#content .desc-text2 {
-    margin-top: 18px;
-    font-size: 18px;
-    line-height: 1.5;
-    text-align: justify;
-    opacity: 0.5;
-}
-
-#menu {
-    padding: 64px 0;
-    margin-bottom: 25px;
-}
-
-#menu .our-menu {
-    width: 100%;
-    height: auto;
+.our-menu {
+    width: 50%;
     padding: 12px 24px;
-    display: inline-block;
-    position: relative;
-    margin: auto 30rem;
-    line-height: 1.5;
 }
-
-h4 {
-    font-size: 20px;
-    font-weight: lighter;
-    letter-spacing: 5px;
+ 
+.img-menu{
+    width: 50%;
+    padding-top: 64%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
 }
 
 .text-our {
     font-size: 36px;
-    font-weight: lighter;
-    margin-left: 8rem;
+    margin: 10px 0; 
+    text-align: center;
+    font-weight: inherit;
 }
 
-.img-menu {
-    height: 400px;
-    opacity: 0.7;
-    border-radius: 4px;
-    position: absolute;
-    top: 0;
-    right: 30rem;
-    transform: translateX(-50%);
+.h4-menu {
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 300;
 }
-
-
 
 .text-menu {
     margin-top: 25px;
     color: #757575;
-
-}
-
+} 
+/* Contact-list */
 #contact-list {
-   padding: 64px 0;
-   margin: auto 30rem;
+    padding: 64px 16px;
 }
 
 .contact-text {
     font-size: 36px;
+    font-size: 36px;
+    font-weight: 100;
     margin: 10px 0;
-    font-weight: lighter;
-    letter-spacing: 5px;
 }
 
-.text-desc,
- .text-phone{
+.text-desc {
     font-size: 15px;
     margin: 15px 0;
-    line-height: 1.5;
 }
 
 .text-info {
     font-size: 18px;
     color: #607d8b;
-    margin: 18px 0;
+    margin: 15px 0;
 }
 
-.info {
-    display: block;
+.text-phone {
+    font-size: 15px;
+    margin: 15px 0;
 }
 
 .contact-input {
@@ -216,10 +215,10 @@ h4 {
     border-bottom: 1px solid #ccc;
 }
 
-.btn {
-    font-size: 15px;
+.btn  {
+    font-size: 16px;
+    margin: 21px 0;
     padding: 8px 16px;
-    margin: 16px 0;
 }
 #footer {
     height: 115px;
